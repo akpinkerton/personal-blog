@@ -1,0 +1,10 @@
+/* This CSS file is used for any additional posts */
+.container{
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: 
+   "hd hd"
+   "br br"
+   "main sd"
+   "ft ft";
+}

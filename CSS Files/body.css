@@ -1,0 +1,122 @@
+/* Background Color - Dark Navy Blue */
+
+/* HEADER SECTIONS */
+.mainHeader{
+    text-align: right;
+    background: #8e1f51;
+    border: 1px solid #4f6d7f;
+    color:white; 
+    margin: 10px;
+}
+.header{
+    grid-area:hd;
+    text-align: left;
+    background: #4f6d7f;
+    color:white;
+    border: 2px solid #8e1f51;
+}
+
+/* BODY SECTIONS */
+body{
+    background-image:url("Images\moon sliver.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #080e17;
+}
+.container{
+    width:95vw;
+    height: auto;
+    display:grid;
+    margin:auto;
+    grid-gap:5px;
+}
+.SocialContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.information{
+    display:grid;
+    width: auto;
+    margin: auto;
+    justify-content:center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    font-size: 1.5vw;
+    grid-template-areas:
+    "1L 1R"
+    "2L 2R"
+    "3L 3R"
+}
+
+/* Information box on Post */
+.content{
+    grid-area:main;
+    font-size: 2.5vw;
+    border: 2px solid #8e1f51;
+}
+.feature{
+    grid-area:br;
+    text-align: center;
+    border: 2px solid #8e1f51;
+    font-size: 2vw;
+}
+.photo{
+    text-align:center;
+    line-height: 0.01;
+    font-size: 1vw;
+}
+/* Boxes to put information in on Posts */
+.info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+/* Individual boxes for Posts */
+/* Text about me */
+  #one{
+  grid-area: 1L;
+  }
+  /* Photo of me */
+  #two{
+  grid-area: 1R;
+  }
+  /* Space Force Flag */
+  #three{
+  grid-area: 2L;
+  }
+  /* Space Force info */
+  #four{
+  grid-area: 2R;
+  }
+  /* Graduation Text */
+  #five{
+  grid-area: 3L;
+  }
+  /* Graduation Photo */
+  #six{
+  grid-area: 3R;
+  }
+
+/* NAVIGATION BAR */
+.sidebar{
+    grid-area:sd;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px solid #8e1f51;
+}
+
+/* FOOTER SECTIONS */
+.footer{
+    grid-area: ft;
+    display:grid;
+    height:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #8e1f51;
+}
+

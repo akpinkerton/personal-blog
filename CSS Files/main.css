@@ -1,0 +1,9 @@
+.container{
+  margin-top: 100px;
+  grid-template-columns: 30px repeat(7,1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "hd hd hd hd hd hd hd hd"
+  "main main main main main main sd sd"
+  "ft ft ft ft ft ft ft ft";
+}

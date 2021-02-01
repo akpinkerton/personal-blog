@@ -1,0 +1,27 @@
+@import "items.css";
+@import "photo.css";
+@import "text.css";
+
+
+/* Subscribe Button */
+#TextBox{
+    width: 100px;
+}
+/* Main Content Colors are Light Blue (#d0efff) boardered by Slate Blue (#4f6d7f) */
+.box{
+    background:#d0efff;
+    padding:5px;
+}
+#border{
+    width:100%;
+    height:auto;
+}
+img {
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* h1: main title */
+/* h2: post titles */
+/* h3: box titles */
+/* h4: paragraph titles */
+
